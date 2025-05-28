@@ -205,7 +205,7 @@ int main(void)
 	  MPU6050_Read_Accel();
 	  MPU6050_Read_Gyro();
 	  printf("Az: %.2f\r\n", Az);
-	  HAL_Delay(250);
+	  HAL_Delay(50);
   }
   /* USER CODE END 3 */
 }

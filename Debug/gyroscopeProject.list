@@ -1710,8 +1710,8 @@ int main(void)
  80012ac:	460b      	mov	r3, r1
  80012ae:	4805      	ldr	r0, [pc, #20]	@ (80012c4 <main+0x48>)
  80012b0:	f004 fb40 	bl	8005934 <iprintf>
-	  HAL_Delay(250);
- 80012b4:	20fa      	movs	r0, #250	@ 0xfa
+	  HAL_Delay(50);
+ 80012b4:	2032      	movs	r0, #50	@ 0x32
  80012b6:	f000 fbdd 	bl	8001a74 <HAL_Delay>
   {
  80012ba:	bf00      	nop
